@@ -1,0 +1,149 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: 000;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+/* default values for tags */
+
+/* container отвечает за позиционирование по центру */
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url("../img/header-bg.jpg") no-repeat center top / cover;
+    padding-top: 57px;
+    font-family: "Anton";
+    padding-bottom: 322px;
+}
+
+header a {
+    color: #fff;
+}
+
+.logo {
+    margin-right: 69px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.tel {
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.offer {
+    margin-top: 321px;
+}
+
+.offer p {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+
+.offer h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 100px;
+    margin-top: -9px;
+    letter-spacing: 0.02em;
+    margin-bottom: 19px;
+}
+
+.button {
+    display: block;
+    border: 1px solid #FFF;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 17px 23px;
+    letter-spacing: 0.1em;
+    font-size: 17px;
+    width: 238px;
+}
+
+section {
+    padding-top: 113px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description p {
+    font-size: 16px;
+    font-family: "Open Sans";
+    text-align: justify;
+    font-weight: 400;
+    line-height: 1.62em;
+}
+
+.about h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: "Anton";
+    margin-bottom: 58px;
+}
+
+.about h3 {
+    font-family: "Anton";
+    margin-bottom: 28px;
+    font-size: 25px;
+}
+
+.desc-right, .desc-left {
+    width: 567px;
+}
+
+.gallery {
+    margin-top: 67px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.footer-text {
+    font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	padding: 114px 0;
+}
